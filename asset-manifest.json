@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/mead_portfolio/static/css/main.3470f605.css",
+    "main.js": "/mead_portfolio/static/js/main.7f31f83c.js",
+    "static/js/787.7da95b79.chunk.js": "/mead_portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/Dingcon_Miguelle.jpg": "/mead_portfolio/static/media/Dingcon_Miguelle.eadc21eb8dd1a0cb1a3d.jpg",
+    "static/media/ODC_1.png": "/mead_portfolio/static/media/ODC_1.45bb7502426410e14d27.png",
+    "static/media/color-sharp2.png": "/mead_portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/banner_bg.jpg": "/mead_portfolio/static/media/banner_bg.69be5af362ec33c55be7.jpg",
+    "static/media/Certificate_4.png": "/mead_portfolio/static/media/Certificate_4.dff9c7d0bbe677cec1c6.png",
+    "static/media/Certificate_2.png": "/mead_portfolio/static/media/Certificate_2.e4698844be2ab6554b97.png",
+    "static/media/Certificate_1.png": "/mead_portfolio/static/media/Certificate_1.e7d27de07a9f4f18788c.png",
+    "static/media/TMS_1.jpg": "/mead_portfolio/static/media/TMS_1.9992dc71344c1bd3a2b7.jpg",
+    "static/media/Funtasktic_1.png": "/mead_portfolio/static/media/Funtasktic_1.3bcd814d43b4217b35a3.png",
+    "static/media/BitData_1.png": "/mead_portfolio/static/media/BitData_1.897c66f311d214d5454d.png",
+    "static/media/projects_bg.jpg": "/mead_portfolio/static/media/projects_bg.e25c5e067ac431808825.jpg",
+    "static/media/Certificate_3.jpg": "/mead_portfolio/static/media/Certificate_3.83484365f58b68374bc0.jpg",
+    "static/media/Certificate_5.jpg": "/mead_portfolio/static/media/Certificate_5.77e7052ec9304ea4f986.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/mead_portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/mead_portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/mead_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/C-impleTHON_1.png": "/mead_portfolio/static/media/C-impleTHON_1.6757afba31c3dfa01b46.png",
+    "static/media/SintomASK_1.png": "/mead_portfolio/static/media/SintomASK_1.0d39f669634870fa0274.png",
+    "static/media/skills_bg.jpg": "/mead_portfolio/static/media/skills_bg.ae2b349841cf1f9fc99c.jpg",
+    "index.html": "/mead_portfolio/index.html",
+    "main.3470f605.css.map": "/mead_portfolio/static/css/main.3470f605.css.map",
+    "main.7f31f83c.js.map": "/mead_portfolio/static/js/main.7f31f83c.js.map",
+    "787.7da95b79.chunk.js.map": "/mead_portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3470f605.css",
+    "static/js/main.7f31f83c.js"
+  ]
+}

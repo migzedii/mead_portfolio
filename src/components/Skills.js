@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import WorkPic from '../assets/img/Trend_Micro.png';
 
 export const Skills = () => {
   return (

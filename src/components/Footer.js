@@ -1,18 +1,23 @@
 import { Container } from "react-bootstrap";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import { IconButton } from "rsuite";
+import { LinkedIn, Email, GitHub } from "@mui/icons-material";
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
         <div className="social-icon">
-          <a href="#"><img src={navIcon1} alt="Icon" /></a>
-          <a href="#"><img src={navIcon2} alt="Icon" /></a>
-          <a href="#"><img src={navIcon3} alt="Icon" /></a>
+          <IconButton href="https://linkedin.com/in/miguelleedriennedingcon" target="_blank">
+            <LinkedIn style={{fill: "white"}} />
+          </IconButton>
+          <IconButton href="mailto:meadingcon12@gmail.com">
+            <Email style={{fill: "white"}} />
+          </IconButton>
+          <IconButton href="https://github.com/migzedii" target="_blank">
+            <GitHub style={{fill: "white"}} />
+          </IconButton>
+          <p>&copy; 2023. All Rights Reserved</p>
         </div>
-        <p>&copy; 2023. All Rights Reserved</p>
       </Container>
     </footer>
   )

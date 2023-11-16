@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import { IconButton } from "rsuite";
+import { LinkedIn, Email, GitHub } from "@mui/icons-material";
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -45,9 +44,15 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <IconButton href="https://linkedin.com/in/miguelleedriennedingcon" target="_blank">
+                  <LinkedIn style={{fill: "white"}} />
+                </IconButton>
+                <IconButton href="mailto:meadingcon12@gmail.com">
+                  <Email style={{fill: "white"}} />
+                </IconButton>
+                <IconButton href="https://github.com/migzedii" target="_blank">
+                  <GitHub style={{fill: "white"}} />
+                </IconButton>
               </div>
             </span>
           </Navbar.Collapse>

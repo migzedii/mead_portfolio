@@ -1,4 +1,3 @@
-/************ Custom Font ************/
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -15,7 +14,7 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
+/* DEFAULT */
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +72,7 @@ p.danger {
 	color: red;
 }
 
-/************ Navbar Css ************/
+/* NAVBAR */
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -84,7 +83,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #A68EE2;
+  background-color: #C296EB;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -138,9 +137,6 @@ span.navbar-text {
 	width: 40%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
-}
-.social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 .navbar-text button {
   font-weight: 700;
@@ -222,7 +218,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/* BANNER */
 .banner {
   margin-top: 0;
   padding: 250px 0 150px 0;
@@ -258,48 +254,62 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-@media only screen and (max-width: 900px) {
-  .banner h1 {
-    margin-top: -150px;
-    font-size: 50px;
-  }
-  .banner img {
-    width: 350px;
-    margin-top: 15px;
-  }
+
+/* SKILL */
+.skill {
+  padding: 40px 0 60px 0;
+  text-align: center;
+  position: relative;
+  background-image: url('./assets/img/skills_bg.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-@media only screen and (max-width: 600px) {
-  .banner {
-    justify-content: center;
-    text-align: center;
-  }
-  .banner h1 {
-    font-size: 35px;
-    margin-left: 0;
-    margin-top: -150px;
-  }
-  .banner p {
-    width: 75%;
-    text-align: center;
-  }
-  .banner img {
-    width: 275px;
-    margin-top: 20px;
-    border: 5px solid #caa2e3;
-  }
+.skill h1 {
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #6e0daa;
+}
+.skill-bx {
+  background: linear-gradient(90.21deg, #e2d6ff -5.91%, #f4efff 111.58%);
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 5px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #8e39c3;
+}
+.skill-bx h2 {
+	font-size: 35px;
+	font-weight: 700;
+}
+.skill-bx span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.skill-bx p {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-/************ Projects Css ************/
+/* PROJECT */
 .project {
   padding: 50px 0;
   position: relative;
   background-image: url('./assets/img/projects_bg.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
   margin-bottom: 30px;
+  color: #6e0daa;
 }
 .project .nav.nav-pills {
   width: 60%;
@@ -405,62 +415,66 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Skills Css ************/
-.skill {
-  padding: 50px 0 50px 0;
-  text-align: center;
-  position: relative;
-  background-color: #a165d9;
-}
-.skill h1 {
-  margin-top: 0px;
-  margin-bottom: 25px;
-  font-size: 50px;
-  font-weight: 700;
-}
-.skill-bx {
-  background: #ae97e9;
-  border-radius: 64px;
-  align-items: center;
-  justify-content: center;
-  padding: 25px 5px;
-  margin-top: 0px;
-  margin-bottom: 25px;
-}
-.skill-bx h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
-.skill-bx span {
-  font-size: 18px;
-  font-weight: 500;
-}
-.experience {
-  margin-top: 20px;
-}
-.experience h2 {
-  font-size: 30px;
-  font-weight: 700;
-}
-.experience p {
-  font-size: 15px;
-}
-
-/************ Footer Css ************/
+/* FOOTER */
 .footer {
-  height: 150px;
+  height: 120px;
   justify-content: center;
   align-items: center;
-  padding: 30px 0 20px 0;
-  background-color: #A68EE2;
+  padding: 25px 0 20px 0;
+  background-image: url('./assets/img/banner_bg.jpg');
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .banner h1 {
+    margin-top: -150px;
+    font-size: 50px;
+  }
+  .banner img {
+    width: 300px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner {
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 40px;
+    margin-left: 0;
+    margin-top: -150px;
+  }
+  .banner p {
+    width: 85%;
+    margin-top: 0;
+  }
+  .banner img {
+    width: 275px;
+    margin-top: 20px;
+    border: 6px solid #caa2e3;
+  }
+  .skill h1 {
+    font-size: 35px;
+  }
+  .skill-bx h2 {
+    font-size: 27px;
+  }
+  .skill-bx span {
+    font-size: 13px;
+  }
+  .skill-bx p {
+    font-size: 13px;
+  }
+  .project h2 {
+    font-size: 35px;
+  }
 }

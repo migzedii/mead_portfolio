@@ -239,6 +239,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner p {
   color: #6e0daa;
   font-size: 18px;
+  font-weight: 500;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 90%;
@@ -434,31 +435,69 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 900px) {
-  .banner h1 {
-    margin-top: -150px;
-    font-size: 50px;
-  }
-  .banner img {
-    width: 300px;
-    margin-top: 15px;
-  }
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .banner {
     text-align: center;
+    justify-content: center;
+  }
+  .banner h1 {
+    margin-top: -50px;
+    margin-left: 0px;
+    font-size: 40px;
+  }
+  .banner p {
+     font-size: 15px;
+     width: fit-content;
+  }
+  .banner img {
+    width: 275px;
+    margin-top: 15px;
+    box-sizing: initial;
+  }
+  .skill h1 {
+    font-size: 40px;
+  }
+  .skill-bx h2 {
+    font-size: 30px;
+  }
+  .skill-bx span {
+    font-size: 15px;
+  }
+  .skill-bx p {
+    font-size: 15px;
+  }
+  .project h2 {
+    font-size: 40px;
+  }
+  .proj-txtx h4 {
+    font-size: 15px;
+  }
+  .proj-txtx span {
+    width: 30%;
+    font-size: 10px;
+    line-height: 0em;
+  }
+  .proj-txtx p {
+    font-size: 10px;
+  }
+}
+  @media only screen and (max-width: 600px) {
+  .banner {
+    text-align: center;
+    justify-content: center;
   }
   .banner h1 {
     font-size: 40px;
     margin-left: 0;
-    margin-top: -150px;
+    margin-top: -50px;
   }
   .banner p {
     width: 85%;
+    font-size: 15px;
     margin-top: 0;
   }
   .banner img {
-    width: 275px;
+    width: 250px;
     margin-top: 20px;
     border: 6px solid #caa2e3;
   }

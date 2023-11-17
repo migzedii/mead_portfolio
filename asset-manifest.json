@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mead_portfolio/static/css/main.00c168b1.css",
+    "main.css": "/mead_portfolio/static/css/main.7e432c65.css",
     "main.js": "/mead_portfolio/static/js/main.7f31f83c.js",
     "static/js/787.7da95b79.chunk.js": "/mead_portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Dingcon_Miguelle.jpg": "/mead_portfolio/static/media/Dingcon_Miguelle.eadc21eb8dd1a0cb1a3d.jpg",
@@ -23,12 +23,12 @@
     "static/media/SintomASK_1.png": "/mead_portfolio/static/media/SintomASK_1.0d39f669634870fa0274.png",
     "static/media/skills_bg.jpg": "/mead_portfolio/static/media/skills_bg.ae2b349841cf1f9fc99c.jpg",
     "index.html": "/mead_portfolio/index.html",
-    "main.00c168b1.css.map": "/mead_portfolio/static/css/main.00c168b1.css.map",
+    "main.7e432c65.css.map": "/mead_portfolio/static/css/main.7e432c65.css.map",
     "main.7f31f83c.js.map": "/mead_portfolio/static/js/main.7f31f83c.js.map",
     "787.7da95b79.chunk.js.map": "/mead_portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00c168b1.css",
+    "static/css/main.7e432c65.css",
     "static/js/main.7f31f83c.js"
   ]
 }

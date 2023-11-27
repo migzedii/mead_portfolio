@@ -12,7 +12,10 @@ import Cert2 from '../assets/img/Certificate_2.png'
 import Cert3 from '../assets/img/Certificate_3.jpg'
 import Cert4 from '../assets/img/Certificate_4.png'
 import Cert5 from '../assets/img/Certificate_5.jpg'
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import Cert6 from '../assets/img/Certificate_6.jpg'
+import Cert7 from '../assets/img/Certificate_7.png'
+import Cert8 from '../assets/img/Certificate_8.png'
+import Cert9 from '../assets/img/Certificate_9.png'
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
@@ -58,29 +61,49 @@ export const Projects = () => {
 
   const certificates = [
     {
-      title: "Introduction to Cyber Security - Simplilearn",
-      skills: "Skills: Cybersecurity",
-      imgUrl: Cert1,
-    },
-    {
       title: "ReactJS for Beginners - Simplilearn",
-      skills: "Skills: Javascript, React.js",
-      imgUrl: Cert2,
-    },
-    {
-      title: "Introduction to Python - Sololearn",
-      skills: "Skills: Python",
-      imgUrl: Cert3,
+      skills: "Skills: Git, HTML, CSS, Javascript, ReactJS",
+      imgUrl: Cert1,
     },
     {
       title: "Introduction to SQL - Sololearn",
       skills: "Skills: SQL",
-      imgUrl: Cert4,
+      imgUrl: Cert2,
     },
     {
       title: "SQL Intermediate",
       skills: "Skills: SQL",
+      imgUrl: Cert3,
+    },
+    {
+      title: "Introduction to Front End Development - Simplilearn",
+      skills: "Skills: Javascript, ReactJS",
+      imgUrl: Cert4,
+    },
+    {
+      title: "Introduction to Python - Sololearn",
+      skills: "Skills: Python",
       imgUrl: Cert5,
+    },
+    {
+      title: "Python Intermediate - Sololearn",
+      skills: "Skills: Python",
+      imgUrl: Cert6,
+    },
+    {
+      title: "Introduction to Cyber Security - Simplilearn",
+      skills: "Skills: Cybersecurity",
+      imgUrl: Cert7,
+    },
+    {
+      title: "Ethical Hacking 101 - Simplilearn",
+      skills: "Skills: Cybersecurity",
+      imgUrl: Cert8,
+    },
+    {
+      title: "Introduction to Ethical Hacking - Simplilearn",
+      skills: "Skills: Cybersecurity",
+      imgUrl: Cert9,
     },
   ];
 
@@ -138,7 +161,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
